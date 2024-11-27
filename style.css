@@ -1,0 +1,302 @@
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+.quote::before {
+    content: "“";
+    font-size: 50px;
+    color: #1a73e8;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-family: 'Ubuntu';
+}
+
+.quote::after {
+    content: "”";
+    font-size: 50px;
+    color: #1a73e8;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    font-family: 'Ubuntu';
+}
+
+.quote p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.quote .author {
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #1a73e8;
+}
+
+p {
+    margin: 0;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f5f7fa;
+    font-family: Ubuntu;
+
+}
+
+.quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote p {
+    font-size: 16px;
+    color: #555;
+}
+
+.quote .author {
+   
+    margin-top: 10px;
+    font-family: 'MavenPro';
+    color: #42445f;
+    text-align: left;
+    font-size: 15px;
+}
+
+.textcenter{
+    text-align: left;
+}
+
+.download {
+    width: 100%;
+            height: 500px; 
+            background-image: url('C:/Users/USER/Desktop/проект/img/phone image.png');
+            background-size: cover; 
+            background-position: center; 
+            text-align: left; 
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: left;
+            color: #ffffff; 
+}
+
+.download h2 {
+    color: #fff;
+}
+
+.download p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.textcenter h2 {
+    padding-top: 125px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 24px;
+    margin: 0;
+}
+
+.textcenter p {
+    padding-left: 50px;
+    padding-top: 52px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
+.textrex{
+    padding-left: 100px;
+}
+
+.store-buttons {
+    margin: 20px 0;
+    padding-left: 100px;
+}
+
+.store-button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+.full-screen-image {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+    display: block;
+}
+
+
+.footer {
+    background-color: #353854;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    margin: 0;
+    color: #1a73e8;
+}
+
+.footer-nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #1a73e8;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .quotes {
+        flex-direction: column;
+    }
+
+    .quote {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .footer-content {
+        background-color:#ff5733;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+hr{
+    border: none; 
+    height: 1px; 
+    background-color: #434769; 
+    margin: 20px 0; 
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.social-links {
+    display: flex; 
+    gap: 50px; 
+    justify-content: left; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+
+
+.social-links i {
+    font-size: 24px; 
+    color: #b5b5c8; 
+    transition: color 0.3s ease; 
+    cursor: pointer; 
+}
+
+.social-links i:hover {
+    color: #007bff; 
+}
+.fun {
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.weather {
+    color: #648cff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.reviews {
+    font-size: 15px; 
+    color: gray; 
+}
+.footer-text {
+    margin-top: 10px;
+    opacity: 0.7; 
+    font-size: 12px;
+    color: #4e527a;
+}
